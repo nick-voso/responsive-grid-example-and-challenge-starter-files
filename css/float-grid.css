@@ -13,7 +13,7 @@
  *   For smaller screens, we always want 20px of padding on either side,
  *   so 960 + 20 + 20 => 1000px
  *
- **/
+width: 33.3%; **/
 .row {
   max-width: 1000px;
   padding-left: 20px;
@@ -22,6 +22,7 @@
 }
 
 /* Clearfix */
+
 .row::before,
 .row::after {
   display: table;
@@ -60,14 +61,16 @@
 
   /* 4 columns */
   .col-4 {
+    width: 33.3%;
   }
 
   /* 6 columns */
   .col-6 {
-
+    width: 50%;
   }
 
   /* 12 columns */
   .col-12 {
+    width: 100%;
   }
 }
